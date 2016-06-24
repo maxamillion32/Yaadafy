@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_emails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/input_emails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_alignParentStart="true"
+                    android:backgroundTint="#263238"/>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_passwords"
+                android:layout_width="match_parent"
+                android:layout_below="@id/input_layout_emails"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/input_passwords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="205dp"
+                    android:backgroundTint="#263238"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_layout_passwords"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:id="@+id/login_button"
+                android:text="Login"
+                android:onClick="onSignInPressed"
+                android:background="@color/colorAccent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_button"
+                android:layout_marginTop="72dp"
+                android:id="@+id/lin_layout">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"
+                    android:layout_weight="0.45" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="OR"
+                    android:layout_weight="0.1"
+                    android:gravity="center_horizontal"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"
+                    android:layout_weight="0.45" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin_layout"
+                android:id="@+id/relativeLayout">
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do not have an account?"
+                android:layout_gravity="center"
+                android:id="@+id/textView"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignEnd="@+id/login_button"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:id="@+id/tv_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:text="  Register"
+                android:onClick="onSignUpPressed"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_toEndOf="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="48sp"
+                android:text="Yaadafy"
+                android:id="@+id/textView2"
+                android:layout_marginTop="92dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

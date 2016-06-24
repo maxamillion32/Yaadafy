@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_header"
+                android:text="@string/about_app"
+                android:textSize="48sp"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/first_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_header"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/alt_text"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dev_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_text"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dev_info"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/my_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/dev_info_text"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/me" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/my_name"
+                android:layout_below="@id/my_pic"
+                android:textSize="18sp"
+                android:text="@string/my_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/my_stream"
+                android:layout_below="@id/my_name"
+                android:text="@string/stream"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/my_college"
+                android:layout_below="@id/my_stream"
+                android:text="@string/college_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:id="@+id/my_email"
+                android:layout_below="@id/my_college" />
+
+            <ImageView
+                android:id="@+id/sayan_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/my_email"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/sayan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/sayan_name"
+                android:layout_below="@id/sayan_pic"
+                android:textSize="18sp"
+                android:text="@string/sayan_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/sayan_stream"
+                android:layout_below="@id/sayan_name"
+                android:text="@string/stream"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/sayan_college"
+                android:layout_below="@id/sayan_stream"
+                android:text="@string/college_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:id="@+id/sayan_email"
+                android:layout_below="@id/sayan_college" />
+
+            <ImageView
+                android:id="@+id/roshni_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/sayan_email"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/roshni"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/roshni_name"
+                android:layout_below="@id/roshni_pic"
+                android:textSize="18sp"
+                android:text="@string/roshni_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/roshni_stream"
+                android:layout_below="@id/roshni_name"
+                android:text="@string/stream"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/roshni_college"
+                android:layout_below="@id/roshni_stream"
+                android:text="@string/college_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:id="@+id/roshni_email"
+                android:layout_below="@id/roshni_college" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:id="@+id/firebase_name"
+                android:text="@string/firebase_ack"
+                android:textSize="48sp"
+                android:layout_below="@id/roshni_email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:id="@+id/firebase_names"
+                android:layout_below="@id/firebase_name"
+                android:text="Firebase"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/firebase_logo"
+                android:layout_below="@id/firebase_names"
+                android:src="@drawable/download" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
