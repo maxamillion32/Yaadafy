@@ -5,7 +5,7 @@ package com.example.user.yaadafy.utils;
  */
 public class Constants {
 
-    public static final String FIREBASE_URL = "https://yaadafy.firebaseio.com//";
+    public static final String FIREBASE_URL = "Your Firebase URL";
     public static final String KEY_SIGNUP_EMAIL = "SIGNUP_EMAIL";
 
 
