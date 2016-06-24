@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Yaadafy</string>
+
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="about_app">About Yaadafy</string>
+
+    <string name="add_reminder_title">Title</string>
+    <string name="add_reminder_content">Write what you may want to remember later.</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="remove_item_option">Remove Item</string>
+    <string name="positive_button_create">Create</string>
+    <string name="text_you">You</string>
+    <string name="bought_by">Bought by</string>
+
+    <string name="no_reminders">Click on the plus button below to begin creating your reminders!</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="hint_password_again">Retype Password</string>
+    <string name="register_prompt">Do not have an account? Register now</string>
+    <string name="divider_or">OR</string>
+    <string name="register_link">Register</string>
+
+    <!-- warnings -->
+    <string name="warning_name_empty">Name cannot be empty</string>
+    <string name="warning_name_lowercase">Name should start from an uppercase letter</string>
+    <string name="warning_email_empty">Email cannot be empty</string>
+    <string name="warning_email_invalid">Invalid email format</string>
+    <string name="warning_password_empty">Password cannot be empty</string>
+    <string name="warning_passwords_do_not_match">Passwords do not match</string>
+
+    <!-- info messages -->
+    <string name="info_registered_template">Registered. ObjectId: %s</string>
+    <string name="info_registered_success">Registered successfully</string>
+    <string name="info_logged_in">Logged in. ObjectId: %s</string>
+
+    <!-- loading messages -->
+    <string name="loading_empty">Loading…</string>
+    <string name="loading_register">Sending registration request…</string>
+    <string name="loading_login">Logging in…</string>
+
+    <!-- Edit List and Add Item Dialogs -->
+    <string name="positive_button_add_list_item">Add item</string>
+    <string name="positive_button_edit_item">Edit name</string>
+    <string name="negative_button_cancel">Cancel</string>
+    <string name="dialog_message_are_you_sure_remove_list">Are you sure you want to remove this list?</string>
+    <string name="dialog_message_are_you_sure_remove_item">Are you sure you want to remove this item?</string>
+
+    <!-- Instructions and Loading Text -->
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_authenticating_with_firebase">Authenticating…</string>
+    <string name="progress_dialog_creating_user_with_firebase">Attempting to create account…</string>
+    <string name="progress_dialog_check_inbox">You are being Registered</string>
+
+    <!-- Errors -->
+    <string name="dialog_title_error">Error</string>
+    <string name="error_message_failed_sign_in_no_network">There was a problem with the network connection.\nAre you sure you\'re connected to the internet?</string>
+    <string name="log_error_invalid_provider">"Invalid provider: "</string>
+    <string name="log_error_failed_to_change_password">"Failed to change the password: "</string>
+    <string name="error_invalid_email_not_valid">%s is not a valid email</string>
+    <string name="error_message_email_issue">There was an error with your email; please check that you entered it correctly.</string>
+    <string name="error_you_didnt_give_permissions">You must give YaadafY permission to access your Google account information if you want to use Google sign-in.</string>
+    <string name="error_email_taken">The email is already taken.</string>
+    <string name="error_invalid_password_not_valid">Please enter a password that is at least 6 characters long.</string>
+    <string name="error_cannot_be_empty">This cannot be empty.</string>
+
+    <!-- List of Shopping Lists Strings -->
+    <string name="created_by">Created by </string>
+    <string name="person_shopping">%d person shopping</string>
+    <string name="people_shopping">%d people shopping</string>
+
+
+    <!-- OAuth Format -->
+    <string name="oauth2_format">oauth2:%s</string>
+
+    <!-- Log Messages -->
+    <string name="log_message_password_changed_successfully">Password changed successfully from temporary password to </string>
+    <string name="log_message_auth_successful">auth successful.</string>
+
+    <!-- Google Errors -->
+    <string name="google_error_recoverable_oauth_error">"Recoverable Google OAuth error: "</string>
+    <string name="google_error_google_play_services_not_available">Google Play Services are not available.</string>
+    <string name="google_error_trying_to_connect_google_api">Trying to connect to Google API</string>
+    <string name="google_error_auth_with_google">"Error authenticating with Google: "</string>
+    <string name="google_error_network_error">"Network error: "</string>
+    <string name="google_error_cant_connect_to_api">Are you sure that you set up a project for your app?
+        Check out : https://console.developers.google.com/project. Also make sure you have all the proper
+    gradle dependencies</string>
+
+    <!--
+
+     == Sharing Strings ==
+
+      -->
+    <!-- Activity Titles -->
+    <string name="title_activity_share_list">Share List</string>
+    <string name="title_activity_add_friend">Add Friend</string>
+
+    <!-- Add a friend -->
+    <string name="hint_enter_friends_email">Enter your friend\'s email</string>
+    <string name="text_add_friend">Add New Friend</string>
+
+    <!-- Menu Strings -->
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About</string>
+
+    <!-- Toast Errors -->
+    <string name="toast_is_already_your_friend">%s is already your friend!</string>
+    <string name="toast_you_cant_add_yourself">You can\'t add yourself as a friend.</string>
+
+    <string name="log_error_updating_data">Error updating data: </string>
+    <string name="log_error_the_read_failed">The read failed: </string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Titles for Sort-->
+    <string name="pref_title_sort_lists">Lists ordering</string>
+
+    <!-- Preference Name -->
+    <string name="pref_name_sort_order_lists">pref_sort_order_lists</string>
+
+    <!-- Ordering Choices Labels : Lists -->
+    <string name="pref_sort_list_label_sortType">Order by</string>
+    <string name="pref_sort_list_label_publish_time_entry">Publish Time</string>
+    <string name="pref_sort_list_label_list_name_entry">List Name</string>
+    <string name="pref_sort_list_label_owner_entry">Owner Email</string>
+    <string name="pref_sort_list_label_most_recently_changed_entry">Most Recently Changed</string>
+
+
+    <!-- Values -->
+    <string name="sort_by_publish_time_value">orderByPushKey</string>
+    <string name="sort_by_list_name_value">listName</string>
+    <string name="sort_by_owner_value">owner</string>
+    <string name="sort_by_most_recently_changed_value">timestampLastChangedReverse/timestamp</string>
+
+    <!-- Intro Texts -->
+    <string name="reminder_intro">Create your Reminders and share them with your Friends instantly!</string>
+    <string name="add_your_friends">Add other Users in your list of friends and share your content with them on the go!</string>
+    <string name="share_tab">Connect to internet to get Reminders from your friends!</string>
+
+
+    <!-- Info About Texts -->
+    <string name="preface_info">This project was undertaken by Rohan Dey, Sayan Banerjee and Roshni Nandi. The entire work would not have been possible without the kind support of the institution who also provided with the golden opportunity of being a part of the Entrepreneurship Week organised at the college premises. We are highly indebted to all the faculty members for their kind support and guidance which helped us in a lot of ways in this regard. We want to extend our sincere thanks to all our friends who willingly helped us with their abilities in this project. We hope this application serves the purpose of the crowd in some way. We not only aim to present this application but to learn the most we can and gain several experience on its way. Last but not the least we want to express our deepest appreciation to our parents and all others involved in this project. </string>
+    <string name="dev_info">The TEAM:</string>
+    <string name="my_name">Rohan Dey</string>
+    <string name="sayan_name">Sayan Banerjee</string>
+    <string name="roshni_name">Roshni Nandi</string>
+    <string name="stream">B.Tech(2nd Year in CSE)</string>
+    <string name="college_name">B.P Poddar Institute of Management And Technology</string>
+    <string name="my_email">rohanoid5@gmail.com</string>
+    <string name="sayan_email">banerjeesayan.1995@gmail.com</string>
+    <string name="roshni_email">roshni.n95@gmail.com</string>
+    <string name="firebase_ack">Powered by:</string>
+    <string name="alt_text">Yaadafy is an open source reminder app with backend capabilities. It relies on Firebase for all the server-end logic. We want to extend our sincere thanks to all our friends who willingly helped us with their abilities in this project.</string>
+
+</resources>
